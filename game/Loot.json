@@ -1,0 +1,20 @@
+{
+  "weapons": {
+    "sword": {
+      "damg" : 10,
+      "icon": "\uD83D\uDDE1"
+    },
+    "axe": {
+      "damg" : 5,
+      "icon": "\uD83E\uDE93"
+    },
+    "sock": {
+      "damg" : 3,
+      "icon": "\uD83E\uDDE6"
+    },
+    "bat": {
+      "damg" : 5,
+      "icon": "\uD83C\uDFCF"
+    }
+  }
+}

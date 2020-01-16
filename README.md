@@ -5,7 +5,7 @@ The stargelaxy space dungeon, made by Pieter &amp; Merlijn
 Theme: Space,
 3 different enemies,
 Chest with random loot,
-6 default rooms,
+6 default rooms (size 8x12),
 common, uncommon, rare, epic items,
 Backpacks (Increase invertory size),
 power ups,
@@ -19,4 +19,14 @@ Hints in the rooms,
 Main menu / pazue menu (quit, about, credits)
 
 Optinal: save
+
+# TODO:
+Room generator,
+Inventory,
+menu's,
+display,
+enemies,
+Loot,
+power ups,
+teleporter,
 

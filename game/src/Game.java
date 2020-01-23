@@ -9,13 +9,12 @@ public class Game {
 	public static void main(String[] args) {
 		
 		LootLogic lootLogic = new LootLogic();
-		
-		
+//
 //		RoomGenerator RoomGenerator = new RoomGenerator();
 //		Player Player = new Player(RoomGenerator);
 //		RoomGenerator.SetPlayerLocation(4, 7);
-//		RoomGenerator.PrintRoom()
-
+//		RoomGenerator.PrintRoom();
+//
 //		while (true) {
 //			Player.movement();
 //		}

@@ -1,5 +1,4 @@
 {
-  "weapons": {
     "sword": {
       "damg" : 10,
       "icon": "\uD83D\uDDE1"
@@ -15,6 +14,5 @@
     "bat": {
       "damg" : 5,
       "icon": "\uD83C\uDFCF"
-    }
   }
 }

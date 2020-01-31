@@ -5,17 +5,14 @@
 
 public class Game {
 	
-	private static long time;
-	
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		
 		Story Story = new Story();
-//		 Story.IntroText();
+		 Story.IntroText();
 		
-		LootLogic Loot = new LootLogic();
 		Player Player = new Player();
 		Monster Monster = new Monster();
 		Monster.setPlayer(Player);

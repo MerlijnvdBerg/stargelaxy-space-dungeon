@@ -28,8 +28,7 @@ public class Story {
 		f.printText("when suddenly after taking a sip of Space-Vodka crew member Carise v.");
 		f.printText("Houten falls on the floor. After about 15 seconds she stands up, her skin is severely damaged,");
 		f.printText("and her eyes seem to have turned red/yellow.");
-		f.printText("What happened?",
-				300);
+		f.printText("What happened?", 300);
 		f.printText("She starts walking towards your crew members and bites someone in the face,");
 		f.printText("now you and all your members started running.");
 		f.printText("The Space-Vodka must’ve been poisoned with some kind of virus.");
@@ -55,7 +54,8 @@ public class Story {
 	 * Prints text voor het verhaal
 	 */
 	public void room1() {
-		f.printText("The ship is on complete lockdown, only a few rooms are available. You are currently inside of the cockpit. ");
+		f.printText(
+				"The ship is on complete lockdown, only a few rooms are available. You are currently inside of the cockpit. ");
 	}
 	
 	/**
@@ -113,7 +113,7 @@ public class Story {
 	/**
 	 * Prints text voor het verhaal
 	 */
-	public void exit(){
+	public void exit() {
 		f.printText("Congratulations!");
 		f.printText("You’ve found your way to the exit pod!");
 		f.printText("You used the escape pod to return to planet Earth and warn Donald Trump.");

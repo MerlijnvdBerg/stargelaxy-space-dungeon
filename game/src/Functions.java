@@ -5,8 +5,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class Functions {
 	
-	private int defaultOptionalPrintTime = 10;
-//	private int defaultOptionalPrintTime = 100;
+	private int defaultOptionalPrintTime = 20;
 	
 	/**
 	 * Prints de text en een damatise manier

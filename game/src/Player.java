@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class Player {
 	public static int[] inventory = {0, 0, 0};
-	public static String[] inventoryItems = {"\uD83D\uDD11", "\uD83C\uDFCF", "\uD83C\uDF4E"};
+	public static String[] inventoryItems = {"K", "B", "A"};
 	private static Functions f = new Functions();
 	private long endTime;
 	public int hp = 4;
@@ -116,9 +116,9 @@ public class Player {
 		StringBuilder stats = new StringBuilder();
 		for (int i = 1; i <= maxhp; i++) {
 			if (i <= hp) {
-				stats.append("♥ ");
+				stats.append("H ");
 			} else {
-				stats.append("♡ ");
+				stats.append(" ");
 			}
 		}
 		System.out.println(stats.toString());

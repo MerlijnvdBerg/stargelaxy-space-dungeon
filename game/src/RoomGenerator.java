@@ -46,7 +46,7 @@ public class RoomGenerator {
 				room[PlayerLocation[0]][PlayerLocation[1]] = " ";
 			}
 			PlayerLocation = new int[]{y, x};
-			room[y][x] = "\uD83D\uDC7D";
+			room[y][x] = "P";
 		}
 	}
 	
@@ -59,7 +59,7 @@ public class RoomGenerator {
 			room[MonsterLocation[0]][MonsterLocation[1]] = " ";
 		}
 		MonsterLocation = new int[]{y, x};
-		room[y][x] = "\uD83D\uDC7E";
+		room[y][x] = "M";
 	}
 	
 	
@@ -123,7 +123,7 @@ public class RoomGenerator {
 	public void setDoor1(int y, int x, int room) {
 		DoorLocation1 = new int[]{y, x};
 		DoorRoom1 = room;
-		this.room[y][x] = "\uD83D\uDEAA";
+		this.room[y][x] = "D";
 	}
 	
 	/**
@@ -134,7 +134,7 @@ public class RoomGenerator {
 	public void setDoor2(int y, int x, int room) {
 		DoorLocation2 = new int[]{y, x};
 		DoorRoom2 = room;
-		this.room[y][x] = "\uD83D\uDEAA";
+		this.room[y][x] = "D";
 	}
 	
 	/**
@@ -145,7 +145,7 @@ public class RoomGenerator {
 	public void setReturnDoor(int y, int x, int room) {
 		ReturnDoor = new int[]{y, x};
 		ReturnRoom = room;
-		this.room[y][x] = "\uD83D\uDEAA";
+		this.room[y][x] = "D";
 	}
 	
 	/**
@@ -160,7 +160,7 @@ public class RoomGenerator {
 	}
 	
 	public void KillMonster(){
-		room[MonsterLocation[0]][MonsterLocation[1]] = "\uD83D\uDC7D";
+		room[MonsterLocation[0]][MonsterLocation[1]] = "P";
 		MonsterLocation = new int[]{0,0};
 	}
 	

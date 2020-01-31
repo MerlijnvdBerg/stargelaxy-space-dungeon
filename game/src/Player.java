@@ -131,7 +131,7 @@ public class Player {
 		StringBuilder stats = new StringBuilder();
 		for (int i = 0; i < inventory.length; i++) {
 			if (inventory[i] == 0) {
-				stats.append("☐ ");
+				stats.append("o ");
 			} else {
 				stats.append(inventoryItems[i] + " ");
 			}
